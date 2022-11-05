@@ -2,6 +2,145 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<style>
+		body{
+	margin:0;
+	padding:0;
+	background-color:#FBF2CF;
+}
+.Lil{
+	display:inline-block;
+	font-family: 'Noto Sans', sans-serif;
+	font-size:2em;
+	margin-right:0.5em;
+	color:#A1C298;
+}
+.Lio{
+	color:#A1C298;
+	font-family: 'Noto Sans', sans-serif;
+	display:inline;
+	float:left;
+	font-size:2em;
+}
+.navul{
+	margin:0.5em;
+	padding:0.5em;
+	list-style:none;
+	text-align:right;
+	background-color:rgba(198,235,197,0.7);
+	border-radius:0.5em;
+}
+a{
+	color:#A1C298;
+	text-decoration:none;
+}
+i{
+	display:inline;
+	margin-right:0.2em;
+}
+p{
+	display:inline-block;
+}
+.active{
+	text-decoration:underline solid 0.1em;
+	text-underline-position:under;
+}
+.passive:hover{
+	text-decoration:underline solid 0.1em;
+	text-underline-position:under;
+}
+.row{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin:0.9em;
+  margin-top:2em;
+  padding:0;
+  justify-content:center;
+}
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 48%;
+    flex: 48%;
+    max-width: 48%;
+    max-height:auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.col2{
+  -ms-flex: 37%; /* IE10 */
+  flex: 37%;
+  max-width: 37%;
+  max-height:auto;
+  padding:0;
+  margin:0;
+  font-family: 'Noto Sans', sans-serif;
+}
+.desclimer{
+  padding:0.5em;
+  margin:0.4em;
+  text-align:left;
+  font-size:1.5em;
+  color:#FBF2CF;
+  background-color:rgba(250, 112, 112,0.7);
+  border-radius:0.3em;
+}
+.col1{
+  font-family: 'Noto Sans', sans-serif;
+  -ms-flex: 60%; /* IE10 */
+  flex: 60%;
+  max-width: 60%;
+  max-height:auto;
+  padding:0;
+  margin:0;
+}
+.blogul{
+  margin:0.5em;
+	padding:0.5em;
+	list-style:none;
+	text-align:right;
+	background-color:rgba(198,235,197,0.7);
+	border-radius:0.5em;
+	list-style:none;
+	text-align:right;
+}
+.blogli{
+	text-align:left;
+}
+.det{
+	display:inline;
+}
+.col2ul{
+  list-style:none;
+  padding:0;
+  margin:0;
+  display: inline-block;
+  text-align: center;
+}
+.col2li{
+  padding:0;
+  margin:0;
+}
+.ladenadd{
+  text-align:center;
+  margin-top:0.2em;
+}
+.laad{
+  align-self:center;
+  padding:0em 0.2em;
+  color:rgba(250, 112, 112,0.7);
+  font-size:2em;
+  background-color:#A1C298;
+  border-radius:0.1em;
+}
+	</style>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Synkers | Blog Site</title>
